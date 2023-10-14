@@ -6,13 +6,12 @@
     font-weight: 650;
     font-size: 120px;
     text-shadow: 1px 2px #fffeee;
-    margin-top: 350px;
 }
 
 .page
 {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     justify-content: center;
     align-items: center;
     /*display: flex (Makes all the content to be in the middle)*/
@@ -20,12 +19,32 @@
 
 #page1
 {
-    background-color: #7bb1b1;
+    background-color: #469b9b;
 }
 
 #page2
 {
     background-color:#191b1b;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#page3
+{
+    position: relative;
+    text-align: center;
+    background-color: #f88379;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#page4
+{
+    position: relative;
+    text-align: center;
+    background-color:#dacccf;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -43,17 +62,78 @@ li
     font-size: 20px;
 }
 
+#typing-text
+{
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    color: #fff0cb;
+    font-size: 120px;
+    font-weight: 650;
+    text-shadow: 1px 2px #fffeee;
+    /*text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;*/
+    margin-top: 350px;
+
+}
+
 #introduction
 {
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
-    color: #fff0ce;
+    color: #fff0cb;
     font-size: 45px;
     font-weight: 650;
-    text-shadow: 1px 2px #fffeee;
+
 
 }
 
 #profile-photo
 {
     width: 650px;
+}
+
+#photography-intro {
+
+    font-size: 60px;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    color: #fffacd;
+    font-weight: 700;
+}
+
+#button
+{
+    font-size: 60px;
+    background-color: #f88379;
+    border-color: #f88379;
+    padding-bottom: 20px;
+}
+
+#button-text
+{
+    font-size: 60px;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    color: #fffacd;
+    font-weight: 700;
+}
+
+#contact-me
+{
+    font-size: 80px;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    color: #b62222;
+    font-weight: 700;
+}
+
+#social-media
+{
+    margin-top: 40px;
+}
+
+.col-lg-2
+{
+    margin-top: 20px;
+}
+
+footer
+{
+    background-color:#dacccf;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 20px;
 }
